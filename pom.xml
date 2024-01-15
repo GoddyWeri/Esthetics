@@ -36,6 +36,17 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.23</version> <!-- Use the version that matches your MySQL server version -->
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.200</version> <!-- Use the latest version available -->
+			<scope>runtime</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
