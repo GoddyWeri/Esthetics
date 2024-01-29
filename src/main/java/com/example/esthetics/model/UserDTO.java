@@ -1,7 +1,8 @@
 package com.example.esthetics.model;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.*;
 import jakarta.persistence.*;
+
 
 @Table(name = "user")
 @Entity

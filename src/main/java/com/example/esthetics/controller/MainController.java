@@ -1,2 +1,4 @@
-package com.example.esthetics.controller;public class MainController {
+package com.example.esthetics.controller;
+
+public class MainController {
 }
